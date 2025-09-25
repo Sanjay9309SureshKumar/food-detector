@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 47
+names: ['almond', 'apple', 'asparagus', 'avocado', 'banana', 'beans', 'beet', 'bell pepper', 'blackberry', 'blueberry', 'broccoli', 'brussels sprouts', 'cabbage', 'carrot', 'cauliflower', 'celery', 'cherry', 'corn', 'cucumber', 'egg', 'eggplant', 'garlic', 'grape', 'green bean', 'green onion', 'hot pepper', 'kiwi', 'lemon', 'lettuce', 'lime', 'mandarin', 'mushroom', 'onion', 'orange', 'pattypan squash', 'pea', 'peach', 'pear', 'pineapple', 'potato', 'pumpkin', 'radish', 'raspberry', 'strawberry', 'tomato', 'vegetable marrow', 'watermelon']
+
+roboflow:
+  workspace: yolo-jpkho
+  project: combined-vegetables-fruits
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-jpkho/combined-vegetables-fruits/dataset/8
